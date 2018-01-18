@@ -1,0 +1,12 @@
+<style type="text/css" media="screen, print">.divListGroup {width: 100%; border: 0px solid #aaa; text-align: center; overflow: hidden;}
+.divChild {display: inline-block; vertical-align: middle;}
+@font-face {
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+src: url(http://themes.googleusercontent.com/static/fonts/pressstart2p/v1/8Lg6LX8-ntOHUQnvQ0E7o3uGXJk6cuEylToZ-uuaubQ.ttf) format('truetype');
+}
+body{font-family: 'Press Start 2P'}
+h1{background-color: #FFC6EB;}
+
+</style>
