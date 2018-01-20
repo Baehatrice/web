@@ -1,6 +1,26 @@
+
+
 *{background-color: #ddadff;
+
   }
 
 img{
   float:left;
+}
+
+.big-area{
+
+  margin: 0 10px 0 0;
+  padding: 10px;
+  background: #999;
+}
+
+.small-unit{
+  float: left;
+  width: 600px;
+  height: 500px;
+  color: #fff;
+  background: #333;
+  margin: 30px;
+  padding: 15px;
 }
