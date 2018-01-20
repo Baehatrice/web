@@ -17,10 +17,10 @@ img{
 
 .small-unit{
   float: left;
-  width: 600px;
+  width: 675px;
   height: 500px;
   color: #fff;
-  background: #333;
-  margin: 30px;
+  background: #ffc6eb;
+  margin: 15px;
   padding: 15px;
 }
