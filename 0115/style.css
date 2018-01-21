@@ -1,26 +1,56 @@
+@font-face {
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+src: url(http://themes.googleusercontent.com/static/fonts/pressstart2p/v1/8Lg6LX8-ntOHUQnvQ0E7o3uGXJk6cuEylToZ-uuaubQ.ttf) format('truetype');
+}
 
+
+@font-face {
+font-family: 'Nanum Gothic Coding';
+font-style: normal;
+font-weight: 400;
+src: url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+}
 
 *{background-color: #ddadff;
-
+  font-family: 'Nanum Gothic Coding';
   }
 
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Press Start 2P'
+}
 img{
   float:left;
 }
 
 .big-area{
-
-  margin: 0 10px 0 0;
-  padding: 10px;
-  background: #999;
+  margin: 0 20px 0 0;
+  padding: 17px;
 }
 
 .small-unit{
   float: left;
-  width: 675px;
-  height: 500px;
-  color: #fff;
+  width: 660px;
+  height: 240px;
+  color: #43468d;
   background: #ffc6eb;
-  margin: 15px;
-  padding: 15px;
+  margin: 15px 0 15px 55px;
+
+  font-size: 10pt;
+  line-height:2.7em;
+  font-weight: 100;
+}
+
+.small-unit img{
+  float: left;
+	margin: 25px;
+	padding: 5px;
+}
+
+figcaption{
+  font-family: 'Press Start 2P';
+  color:#ffe92f;
 }

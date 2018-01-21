@@ -1,0 +1,42 @@
+@font-face {
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+src: url(http://themes.googleusercontent.com/static/fonts/pressstart2p/v1/8Lg6LX8-ntOHUQnvQ0E7o3uGXJk6cuEylToZ-uuaubQ.ttf) format('truetype');
+}
+
+@font-face {
+font-family: 'Nanum Gothic Coding';
+font-style: normal;
+font-weight: 400;
+src: url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+}
+
+body{
+  font-family: 'Press Start 2P'
+}
+
+h1{
+  background-color: #FFC6EB;
+}
+
+a:visited {
+  text-decoration: none; color:white;
+}
+
+sub{
+  line-height:0.7em;
+}
+
+intro{
+font-family: 'Nanum Gothic Coding'
+font-weight: 400;
+line-height:2.7em;
+font-size: 10pt;
+background-color: #FFC6EB;
+}
+
+under{
+  line-height: 1em;
+  font-size: 700;
+}
