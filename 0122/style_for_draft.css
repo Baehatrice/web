@@ -1,0 +1,59 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body{
+  font-family: 'Jeju Gothic'
+}
+
+
+.grid-container{
+  display: grid;
+  grid-gap: 15px;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.logo{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background-color: #dcdcdc;
+}
+
+.empty1{
+  grid-row: 1/2;
+  grid-column: 2/4;
+  background-color: #b2b2b2;
+  text-align: center;
+}
+
+.empty2{
+  grid-row: 2/3;
+  grid-column: 1/4;
+  background-color: #929292;
+}
+
+.about{
+  grid-row: 3/4;
+  grid-column: 1/2;
+  background-color: #787878;
+  color: #ddadff;
+  text-align: center;
+}
+
+.works{
+  grid-row: 3/4;
+  grid-column: 2/3;
+  background-color: #5b5b5b;
+  color: #ddadff;
+}
+
+.contact{
+  grid-row: 3/4;
+  grid-column: 3/4;
+  background-color: #454545;
+  color: white;
+  text-align: center;
+}
