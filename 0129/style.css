@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 }
 
+
 body{
   font-family: 'Jeju Gothic'
   grid-area: ft;
@@ -14,6 +15,19 @@ h1{
   font-size: 800%;
 }
 
+.pic-title {
+    color: white;
+}
+a {
+  text-decoration:none
+}
+
+a:visited {
+  color:white;
+  opacity: inherit;
+}
+
+@media (min-width:600px){
 .flex-container{
   position:fixed;
   left:300px;
@@ -42,15 +56,6 @@ h1{
   text-align: center;
 }
 
-a {
-  text-decoration:none
-}
-
-a:visited {
-  color:white;
-  opacity: inherit;
-}
-
 .pic {
     max-width: 100%;
     height: auto;
@@ -68,7 +73,6 @@ a:visited {
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-
 
 .pic-caption {
     cursor: default;
@@ -102,10 +106,6 @@ a:visited {
     transform: scale(1)
 }
 
-.pic-title {
-    color: white;
-}
-
 a,
 a:hover,
 .pic .pic-image,
@@ -118,7 +118,6 @@ a:hover,
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease
 }
-
 
 .pic:hover .top-to-bottom {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
@@ -143,7 +142,6 @@ a:hover,
     tap-highlight-color: transparent
 }
 
-
 .top-to-bottom {
     bottom: 50%;
     left: 0
@@ -161,12 +159,10 @@ a:hover,
   width: 7%;
   height: auto;
 }
+}
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 540px) {
   body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
+    background-color: yellow;
   }
 }
