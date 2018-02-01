@@ -2,6 +2,8 @@
 
 body{
   font-family: 'Jeju Gothic'
+  grid-area: ft;
+  margin: 0;
 }
 
 h1{
@@ -15,25 +17,21 @@ h1{
   display: grid;
   grid-gap: 15px;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
   opacity: 0.7;
 }
 
 .about{
   grid-row: 1/1;
-  grid-column: 1/2;
   text-align: center;
 }
 
 .works{
   grid-row: 1/1;
-  grid-column: 2/3;
   text-align: center;
 }
 
 .contact{
   grid-row: 1/1;
-  grid-column: 3/4;
   text-align: center;
 }
 
@@ -46,7 +44,11 @@ a:visited {
   opacity: inherit;
 }
 
+
+
+
 .pic {
+
     position: relative;
     overflow: hidden;
     display: inline-block;
@@ -60,8 +62,6 @@ a:visited {
     -o-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-
-
 }
 
 
