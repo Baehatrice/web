@@ -1,0 +1,20 @@
+.train {
+  width: auto;
+  height: 600px;
+  animation-name: speed;
+  animation-duration: 20s;
+  animation-direction:alternate-reverse;
+  animation-iteration-count:infinite;
+}
+
+@keyframes speed {
+0% {transform: translate(-10%);}
+to {transform: translate(-60%);}
+}
+
+body{
+  margin: 0;
+  position: fixed;
+  overflow-y: scroll;
+  width: 100%;
+}

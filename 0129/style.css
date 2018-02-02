@@ -20,6 +20,7 @@ h1{
 }
 a {
   text-decoration:none
+
 }
 
 a:visited {
@@ -161,8 +162,77 @@ a:hover,
 }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 360px) {
   body {
-    background-color: yellow;
+    font-family: 'Jeju Gothic';
+    margin: 0;
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%;
+  }
+
+  .logo{
+
+    position: fixed;
+    left:100px;
+    top:90px;
+    width: 45%;
+    height: auto;
+  }
+
+  .pic-image{
+    width: auto;
+    height: 500px;
+    animation-name: speed;
+    animation-duration: 20s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count:infinite;
+  }
+
+  @keyframes speed {
+  0% {transform: translate(-10%);}
+  to {transform: translate(-60%);}
+  }
+
+  .pic-title{
+    font-size: 35pt;
+    left: 70px;
+    padding-top:  65px;
+
+  }
+
+  .flex-container{
+    position:fixed;
+    left:60px;
+    top: 430px;
+    display: flex;
+
+    grid-template-rows: 1fr;
+    opacity: 0.7;
+  }
+
+  .about{
+    position:fixed;
+    left: 160px;
+    grid-row: 1/1;
+    text-align: center;
+  }
+
+  .works{
+    grid-row: 1/1;
+    left: 20;
+  }
+
+  .contact{
+    position:fixed; left: 250px;
+    grid-row: 1/1;
+    text-align: center;
+  }
+  a {
+    text-decoration:none
+  }
+  a:visited {
+    color:white;
+    opacity: inherit;
   }
 }
