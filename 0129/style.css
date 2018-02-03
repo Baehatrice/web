@@ -202,6 +202,7 @@ a:hover,
   }
 
   .flex-container{
+    color: white;
     position:fixed;
     left:60px;
     top: 430px;
@@ -229,10 +230,7 @@ a:hover,
     text-align: center;
   }
   a {
-    text-decoration:none
-  }
-  a:visited {
-    color:white;
-    opacity: inherit;
+    color: white;
+
   }
 }
