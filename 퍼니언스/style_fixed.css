@@ -185,18 +185,11 @@ a:hover,
   }
 
   .pic-image{
-    width: auto;
-    height: 500px;
-    animation-name: speed;
-    animation-duration: 20s;
-    animation-direction:alternate-reverse;
-    animation-iteration-count:infinite;
+    width: 0%;
+    height: 0%;
+
   }
 
-  @keyframes speed {
-  0% {transform: translate(-10%);}
-  to {transform: translate(-60%);}
-  }
 
   .pic-title{
     font-size: 35pt;
@@ -237,7 +230,9 @@ a:hover,
 
   .mobile_image{
     position:fixed;
-    width: device-width;
+    width: 100%;
     height: auto;
+
+  }
   }
 }
