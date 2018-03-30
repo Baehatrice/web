@@ -194,7 +194,8 @@ a:hover,
   .pic-title{
     font-size: 35pt;
     left: 70px;
-    padding-top:  65px;
+    top: -300px;
+
   }
 
   .flex-container{
