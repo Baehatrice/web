@@ -230,7 +230,7 @@ a:hover,
 
   .mobile_image{
     position:fixed;
-    width: auto;
+    width: 100%;
     height: auto;
 
   }
