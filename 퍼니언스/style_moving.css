@@ -185,11 +185,18 @@ a:hover,
   }
 
   .pic-image{
-    width: 0%;
-    height: 0%;
-
+    width: auto;
+    height: 500px;
+    animation-name: speed;
+    animation-duration: 20s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count:infinite;
   }
 
+  @keyframes speed {
+  0% {transform: translate(-10%);}
+  to {transform: translate(-60%);}
+  }
 
   .pic-title{
     font-size: 35pt;
