@@ -1,0 +1,21 @@
+body{
+  color: white;
+  background-color: black;
+}
+
+.flex-container{
+  display: flex;
+  grid-template-rows: 1fr;
+}
+
+.about{
+  grid-row: 1/1;
+}
+
+.works{
+  grid-row: 1/1;
+}
+
+.contact{
+  grid-row: 1/1;
+}
