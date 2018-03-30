@@ -237,8 +237,7 @@ a:hover,
 
   .mobile_image{
     position:fixed;
-    width: screen.width;
+    width: device-width;
     height: auto;
-
   }
 }
